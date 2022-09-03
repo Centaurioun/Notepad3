@@ -1,3 +1,7 @@
 files:
-  - source: /minipath/language/mp_en_us/*_*
+  - source: /minipath/language/mp_en_us/**
     translation: /minipath/language/mp_%locale_with_underscore%/%file_name%.%file_extension%
+  - source: /language/np3_en_us/**
+    translation: /language/np3_en_us/np3_%locale_with_underscore%/%file_name%.%file_extension%
+  - source: /grepWinNP3/translationsNP3/English (United States)
+    translation: '%original_path%/Türkçe (Türkiye) [%locale_with_underscore%].%file_extension%'
